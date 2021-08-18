@@ -21,6 +21,42 @@ div .logo {
     
 }
 
+.hamburguer-button {
+    display: none;
+}
+@media (max-width: 769px) {
+
+.main-navbar {
+    
+    margin-top: 25px;
+    display: contents;
+}
+
+.main-navbar {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navbar a {
+    font-size: 12px;
+}
+
+.main-navbar ul {
+    
+    display: flex
+}
+.main-navbar li {
+    margin: 0 0px;
+}
+.left-navbar li {
+    padding: 10px;
+    
+}
+.right-navbar li {
+    padding: 10px;
+}
+}
 
 .text-descrip {
     opacity: 0;

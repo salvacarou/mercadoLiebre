@@ -29,7 +29,7 @@
         }
         .right-navbar li {
             padding: 15px;
-                    }
+        }
        
         
 
@@ -82,6 +82,8 @@
     header {
         height: 200px;
     }
+
+    
     
 
     .flexiamosA {
@@ -137,4 +139,9 @@
     .margen-inicial {
         margin-top: 40px;
     }
+}
+@media (min-width: 1500px) {
+    header {
+        height: 230px;
+    }    
 }
