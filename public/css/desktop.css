@@ -1,0 +1,139 @@
+@media (min-width: 769px) {
+    
+    
+        .main-header-top-bar {
+            flex-wrap: nowrap;
+            display: flex;
+            justify-content: space-around;
+        }
+        .copy-header {
+            max-width: 350px;
+            text-align: right;
+        }
+        .hamburguer-button {
+            display: none;
+        }
+        .main-navbar {
+            
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-navbar ul {
+            display: flex
+        }
+        .main-navbar li {
+            margin: 0 5px;
+        }
+        .left-navbar li {
+            padding: 15px;
+        }
+        .right-navbar li {
+            padding: 15px;
+                    }
+       
+        
+
+         
+        
+        
+        .barrara input {
+            width: 90%;
+        }
+       
+
+
+        .barrara {
+            display: inline;
+            width:  350px;
+            
+        }
+
+
+
+
+        div .logo {
+            width: 400px;
+        }
+
+        .logo {
+            width: 100%;
+            margin-left: -50px;
+        }
+    
+
+
+
+
+    
+    body {
+        font-size: 16px;
+    margin-top: 200px    }
+    
+    .el-padding {
+        max-width: 25%;
+        padding: 5px;
+    }
+
+   
+
+   
+
+    header {
+        height: 200px;
+    }
+    
+
+    .flexiamosA {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        
+    }
+    
+    .flexiamos {
+        justify-content: space-between;
+    }
+    
+
+    .ALGO {
+        width: 100%;
+        height: 200px;
+    }
+    
+   
+    .maslindo input {
+        width: 400px;
+        height: 25px;
+        border-radius: 3px;
+        border: black solid 1px;
+        
+    }
+
+    .boton {
+        width: 400px;
+    }
+
+
+    .adaptar {
+        
+        font-size: 30px;
+        
+    }
+
+    .centrar {
+        width: 25%;
+    }
+    .margen {
+        padding-top: 3%;
+    }
+
+    .banner {
+        display: contents;
+    }
+
+    .margen-inicial {
+        margin-top: 40px;
+    }
+}
