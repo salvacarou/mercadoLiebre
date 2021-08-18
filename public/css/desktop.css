@@ -40,6 +40,9 @@
             width: 90%;
         }
        
+        .arreglo {
+            width: 30%;
+        }
 
 
         .barrara {
@@ -51,9 +54,7 @@
 
 
 
-        div .logo {
-            width: 400px;
-        }
+        
 
         .logo {
             width: 100%;

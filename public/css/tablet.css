@@ -8,9 +8,11 @@ div .logo {
      display: contents;
      display: inline;
      width: 50%;
+     
     }
 .barrara input {
     width: 90%;
+    border-radius: 5px;
 }
 
 

@@ -22,7 +22,7 @@ main {
 }
 
 .iimg {
-    width : 100%;
+    
     padding : 0 5%;
     margin-top: 250%;
     
@@ -108,16 +108,40 @@ main {
 /*-----------------------------------------------------------------------------------*/
 
 /*-----------------------------------header*/
+.main-header-top-bar {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arreglo {
+    min-width: 80px;
+    width: 40%;
+    
+}
+@media (max-width: 481px) {
+.barrara {
+    width: 60%;
+}
+
+.barrara input {
+    font-size: 9px;
+    
+}
+}
+
 .barrara i {
   margin-left: -25px;
   margin-top: -10px;
 }
 .barrara input {
+    margin-left: 5px;
     height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    
 }
-.barrara {
-    display: none;
-}
+
 
 
 .main-header {
@@ -127,7 +151,7 @@ main {
 }
 
 .logo {
-    width: 300px;
+    width: 100%;
 }
 
 .copy-header {
@@ -174,7 +198,7 @@ main {
     display: block;
     margin: 5vw 15vw;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -320,14 +344,11 @@ main {
 
 }
 
-
-
 header {
     position: fixed;
     top: 0;
     z-index: 1;
 }
-
 
 
 .borde-gris2 {
@@ -408,4 +429,7 @@ background-color: #0022AA;
 .borde-gris2:hover .acomodar {
     transform: rotate(360deg);
 }
+
+
+
 
